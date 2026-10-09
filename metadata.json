@@ -1,0 +1,6 @@
+{
+  "name": "LearnX — Learning, Mentorship & SkillProof Platform",
+  "description": "Production-ready AI-powered platform for learning new skills, mentor exchange, skill recognition, assessment, assessor verification, SkillProof credentials, and Time Credits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

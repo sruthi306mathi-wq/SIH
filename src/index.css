@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Deep Marine Oceanic Shades */
+    --color-marine-950: #071a2b;
+    --color-marine-900: #0c263d;
+    --color-marine-850: #0e2e49;
+    --color-marine-800: #123859;
+    --color-marine-700: #194a73;
+    --color-marine-600: #226194;
+    --color-marine-500: #2d7bb8;
+    --color-marine-teal: #0d9488;
+    --color-marine-cyan: #06b6d4;
+
+    /* Rich Warm Brown, Saddle, Mahogany & Bronze */
+    --color-brown-950: #2b1408;
+    --color-brown-900: #3d1d0c;
+    --color-brown-850: #542810;
+    --color-brown-800: #703616;
+    --color-brown-700: #8a431c;
+    --color-brown-600: #a85423;
+    --color-brown-500: #c4682e;
+    --color-brown-400: #de8448;
+    --color-brown-300: #f0a876;
+    --color-brown-200: #f7cbac;
+    --color-brown-100: #fbeadb;
+    --color-brown-50: #fef7f1;
+
+    /* Warm Marine Sand / Parchment Backgrounds */
+    --color-sand-50: #fcfaf6;
+    --color-sand-100: #f6efe3;
+    --color-sand-200: #ebe0ce;
+    --color-sand-300: #ded0bb;
+    --color-sand-400: #cbbba3;
+
+    /* Backward compatibility */
+    --color-warm-900: #3d1d0c;
+    --color-warm-800: #703616;
+    --color-warm-700: #8a431c;
+    --color-warm-600: #a85423;
+    --color-warm-500: #c4682e;
+    --color-cream-50: #fcfaf6;
+    --color-cream-100: #f6efe3;
+    --color-cream-200: #ebe0ce;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', system-ui, -apple-system, sans-serif;
+    background-color: #fcfaf6;
+    color: #0c263d;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Space Grotesk', 'Plus Jakarta Sans', 'Noto Sans Tamil', sans-serif;
+  }
+}
+
+/* Marine Brown Utility Accents */
+.theme-marine-brown {
+  --bg-primary: #fcfaf6;
+  --header-bg: #0c263d;
+  --accent-brown: #8a431c;
+}
+
+/* Custom scrollbars with Marine Brown styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f6efe3;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbbba3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8a431c;
+}
+
