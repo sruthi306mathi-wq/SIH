@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# LearnX Website
 
-# Run and deploy your AI Studio app
+LearnX is a learning platform designed to connect learners and mentors.
 
-This contains everything you need to run your app locally.
+## Live Website
 
-View your app in AI Studio: https://ai.studio/apps/1637ab37-57cc-4c40-b018-2525b478efd8
+https://learnx-website.onrender.com
+
+## Features
+
+* Learner and mentor interface
+* Learning dashboard
+* AI assistant integration
+* Skill development and assessments
+
+## Technology Stack
+
+* React
+* TypeScript
+* Vite
+* Node.js
+* Express
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+1. Install Node.js.
+2. Clone this repository.
+3. Run `npm install`.
+4. Configure the required environment variables.
+5. Run `npm run dev` or the appropriate start command from `package.json`.
 
+## Project Repository
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+https://github.com/sruthi306mathi-wq/SIH
